@@ -1,16 +1,9 @@
 # flame_render_artifacts_example
 
-A new Flutter project.
+This repository is meant to demonstrate a common issue found in Flame games,
+which we call "ghost lines", or rendering artifacts.
 
-## Getting Started
+To know about this, read the supporticle article [here](TODO).
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sprites used in this example are from
+[CherryBits Studio's Little Adventure Asset Pack](https://cherrybit.itch.io/little-adventures).
