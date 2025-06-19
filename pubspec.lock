@@ -60,10 +60,11 @@ packages:
   flame:
     dependency: "direct main"
     description:
-      name: flame
-      sha256: "58566686ad9b7e6a3984c50a740fd733e0a5022d48263916f50b3c78e7f14ec0"
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/flame"
+      ref: "feat/raster-sprite-from-image"
+      resolved-ref: "5841dc5bf125781deb9b65de100419a35ca4cec4"
+      url: "https://github.com/flame-engine/flame.git"
+    source: git
     version: "1.29.0"
   flutter:
     dependency: "direct main"
@@ -226,4 +227,4 @@ packages:
     version: "15.0.0"
 sdks:
   dart: ">=3.8.1 <4.0.0"
-  flutter: ">=3.27.1"
+  flutter: ">=3.18.0-18.0.pre.54"

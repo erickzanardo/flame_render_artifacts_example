@@ -21,6 +21,13 @@ dev_dependencies:
 
   flutter_lints: ^5.0.0
 
+dependency_overrides:
+  flame:
+    git:
+      url: https://github.com/flame-engine/flame.git
+      ref: feat/raster-sprite-from-image
+      path: packages/flame
+
 flutter:
   uses-material-design: true
   assets:
