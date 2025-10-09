@@ -1,6 +1,7 @@
 import 'package:flame/game.dart' hide Route;
 import 'package:flame_render_artifacts_example/fixed_example.dart';
 import 'package:flame_render_artifacts_example/issue_example.dart';
+import 'package:flame_render_artifacts_example/tiled_issue_example.dart';
 import 'package:flutter/material.dart';
 
 class IssueGameExample extends StatelessWidget {
@@ -45,6 +46,27 @@ class FixedGameExample extends StatelessWidget {
   }
 }
 
+class TiledIssueGameExample extends StatelessWidget {
+  const TiledIssueGameExample({super.key});
+
+  static Route<void> route() {
+    return MaterialPageRoute<void>(
+      builder: (context) => const TiledIssueGameExample(),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.black12,
+      body: Padding(
+        padding: const EdgeInsets.all(56.0),
+        child: GameWidget.controlled(gameFactory: TiledIssueGame.new),
+      ),
+    );
+  }
+}
+
 class Home extends StatelessWidget {
   const Home({super.key});
 
@@ -61,6 +83,12 @@ class Home extends StatelessWidget {
                 Navigator.of(context).push(IssueGameExample.route());
               },
               child: const Text('Issue Example'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(TiledIssueGameExample.route());
+              },
+              child: const Text('Tiled Issue Example'),
             ),
             ElevatedButton(
               onPressed: () {
