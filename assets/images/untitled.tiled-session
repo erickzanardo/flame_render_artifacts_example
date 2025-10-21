@@ -3,43 +3,65 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "map.tmx",
     "expandedProjectPaths": [
+        "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "base.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 8,
+            "scaleInEditor": 1
+        },
+        "bla.tsx": {
+            "scaleInDock": 16,
             "scaleInEditor": 1
         },
         "cemetery.tmx": {
-            "scale": 2,
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 144,
+                "y": 95.875
+            }
+        },
+        "high.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "map.tmx": {
+            "scale": 1.23,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 193,
-                "y": 107.75
+                "x": 59.756097560975604,
+                "y": 240.65040650406505
             }
         },
         "spook.tsx": {
-            "scaleInDock": 1,
-            "scaleInEditor": 1
+            "scaleInDock": 8,
+            "scaleInEditor": 11
         }
     },
     "last.imagePath": "/Users/erickzanardo/projects/flame_render_artifacts_example/assets/images",
     "map.lastUsedFormat": "tmx",
-    "map.tileHeight": 8,
-    "map.tileWidth": 8,
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
     "openFiles": [
+        "map.tmx",
+        "high.tsx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
-        "cemetery.tmx",
+        "high.tsx",
+        "map.tmx",
+        "base.tsx",
         "spook.tsx",
-        "base.tsx"
+        "bla.tsx",
+        "cemetery.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
-        "height": 8,
-        "width": 8
+        "height": 32,
+        "width": 32
     }
 }

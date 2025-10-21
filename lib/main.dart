@@ -58,11 +58,7 @@ class TiledIssueGameExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black12,
-      body: Padding(
-        padding: const EdgeInsets.all(56.0),
-        child: GameWidget.controlled(gameFactory: TiledIssueGame.new),
-      ),
+      body: GameWidget.controlled(gameFactory: TiledIssueGame.new),
     );
   }
 }
